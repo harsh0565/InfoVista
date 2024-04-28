@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navigation{
+  position: sticky;
+  top: 0%;
+  z-index: 2;
+}
+.imageHeight{
+  height: 200px;
+}
+.heading{
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+
+}
+.navheading{
+  font-size:25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 50px;
+  text-shadow: 1px 1px 2px red;
+  transition-duration: 2s;
+
+}
+.navheading:hover{
+  /*transform: scale(1.3);
+  */transition-duration: 2s;
+  margin-bottom: 30px;
+  color: blue;
+}
+.scroll{
+  overflow-x: hidden;
+}
+.data:hover{
+  transform: scale(1.09);
+  transition-duration: 5ms;
+  
+}
+.buttondata:hover{
+  transform: scale(1.02);
+  font-size: larger;
+
+  transition-duration: 5ms;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
